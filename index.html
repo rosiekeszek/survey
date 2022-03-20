@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Survey</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html lang="en">
+  <body id="background-color">
+  
+    <div class="box-1">
+      
+    <h1 id="title" class="text-center">Weather Survey</h1>
+    
+    <p id="description" class="text-center">What are your weather and climate preferences?</p>
+      
+      <form id="survey-form">
+        <input type="text" id="name" placeholder="name">
+        
+        <input type="text" id="email" placeholder="email">
+        
+        <input type="number" id="number" placeholder="age" min="0" max="115">
+        <hr>
+        <div class="form-group">
+          <p>Select the option which best describes the temperature in your region today</p>
+          <select id="dropdown" name="temperature" class="form-control" required>
+            <option disabled selected value>Select an option</option>
+            <option value="glacial">Glacial</option>
+            <option value="sweater-weather">Sweater Weather</option>
+            <option value="socks-optional">Socks Optional</option>
+            <option value="beach-day">Beach Day</option>
+            <option value="firenado">Firenado</option></select>
+              </div>
+          
+        <div class="group-two">
+          <p>What is your favorite season?</p>
+          <label>
+            <input name="spring" value="spring" type="radio" class="input-radio" checked/>Spring</label>
+          <label>
+            <input name="summer" value="summer" type="radio" class="input-radio"/>Summer</label>
+          <label>
+            <input name="autumn" value="autumn" type="radio" class="input-radio"/>Autumn</label>
+          <label>
+            <input name="winter" value="winter" type="radio" class="input-radio"/>Winter</label></div>
+                  
+              <div class="group-three">
+                <p>What is you prefered climate region?</p>
+                <select id="dropdown-2" name="climate-region" class="form-control" required>
+                  <option disabled selected value>Select an option</option>
+                  <option value="tropical-wet">Tropical Wet</option>
+                  <option value="tropical-wet-dry">Tropical Wet + Dry</option>
+                  <option value="Semiarid">Semiarid</option>
+                  <option value="desert-arid">Desert-Arid</option>
+                  <option value="mediterranean">Mediterranean</option>
+                  <option value="humid-subtropical">Humid Subtropical</option>
+                  <option value="marine-west-coast">Marine West Coast</option>
+                  <option value="humid-continental">Humid Continental</option>
+                  <option value="subarctic">Subarctic</option>
+                  <option value="tundra">Tundra</option>
+                  <option value="icecap">Icecap</option>
+                  <option value="highland">Highland</option></select>
+                  </div>               
+      
+                
+               <div class="group-four">
+                  <p>All regions come with extreme weather events, which of the following would cause you to rule out living in an area?<span class="clue"><br>(Check all that apply.)</span></p>
+                  <label>
+                    <input name="prefer" value="hurricane" type="checkbox" class="input-checkbox"/>Hurricane</label>
+                 <label>
+                  <input name="prefer" value="tornado" type="checkbox" class="input-checkbox"/>Tornado</label>
+             <label> 
+                 <input name="prefer" value="flash-flood" type="checkbox" class="input-checkbox"/>Flash flood</label>
+                 <br><label>
+        <input name="prefer" value="earthquake" type="checkbox" class="input-checkbox"/>Earthquake</label>
+     <label>
+                 <input name="prefer" value="volcano" type="checkbox" class="input-checkbox"/>Volcano</label>
+    <label>
+                 <input name="prefer" value="tsunami" type="checkbox" class="input-checkbox"/>Tsunami</label></div>
+
+<div class="group-five">
+  <p>Have you lived in the same or similar types of climate regions your entire life? What type of climate did you grow up in and have you ever moved for weather reasons?</p>
+  <textarea id="comments" class="input-textarea" name="comments" placeholder="Enter your comments here..."></textarea>
+        </div>
+        
+        <div class="group-six">
+          <button type="submit" id="submit" class="submit-button">Submit</button>
+        </div>
+  
+                
+            
+                
+            
+            
+            
+            
+        
+      </form>
+    </div>
+  </body>
+</html>
+<!-- partial -->
+  
+</body>
+</html>
